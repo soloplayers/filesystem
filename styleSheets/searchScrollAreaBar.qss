@@ -1,0 +1,50 @@
+QScrollBar:vertical {
+    max-width: 4px;
+    min-height: 10px;
+    margin: 0;
+    padding-top: 2px;		/*//隐藏上下的箭头*/
+    padding-bottom: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    /*设置背景色为透明*/
+    background: transparent;
+}
+
+QScrollBar::handle:vertical {
+    width: 4px;
+    background: rgba(157, 157, 157,75%); /*普通时候透明度75%*/
+    /*滚动条两端变成椭圆 */
+    border-radius: 2px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    width: 4px;
+    /*鼠标放到滚动条上的时候，颜色变深*/
+    background: rgb(157, 157, 157);
+    border-radius: 2px;
+    min-height: 30px;
+}
+/*设置上箭头 这里我去掉了 但是设置方法如下  */
+QScrollBar::sub-line:vertical {
+    background:none;
+    width:0px;
+    subcontrol-position:top;
+    subcontrol-origin:margin;
+}
+QScrollBar::add-line:vertical
+{
+    background:none;
+    width:0;
+    subcontrol-position:bottom;
+    subcontrol-origin:margin;
+}
+
+/*上下进度条背景色 滚动条上下的颜色*/
+QScrollBar::sub-page:vertical {
+    background: transparent;
+}
+QScrollBar::add-page:vertical
+{
+    background: transparent;
+}

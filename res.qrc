@@ -1,0 +1,104 @@
+<RCC>
+    <qresource prefix="/">
+        <!--          ico资源图片        -->
+        <file>icon/fileLogo.ico</file>
+
+        <!--         登录窗口的图片      -->
+        <file>res/login_imgs/login_background_img.png</file>
+        <file>res/login_imgs/userIcon.png</file>
+        <file>res/login_imgs/passwordIcon.png</file>
+        <file>res/login_imgs/verifyIcon.png</file>
+        <file>res/login_imgs/error.png</file>
+        <file>res/login_imgs/correct.png</file>
+
+        <!--        公共图片        -->
+        <file>res/commonImgs/arrow-down.png</file>
+        <file>res/commonImgs/arrow-up.png</file>
+        <file>res/commonImgs/folder.png</file>
+        <file>res/commonImgs/folder(48x48).png</file>
+        <file>res/commonImgs/warning.png</file>
+        <file>res/commonImgs/packageRename.png</file>
+        <file>res/commonImgs/packageAddItems.png</file>
+        <file>res/commonImgs/removePackage.png</file>
+        <file>res/commonImgs/file.png</file>
+        <file>res/commonImgs/openProject.png</file>
+
+        <!--        新建菜单栏的几个图片      -->
+        <file>res/newBuild_menu_imgs/folder.png</file>
+        <file>res/newBuild_menu_imgs/file.png</file>
+        <file>res/newBuild_menu_imgs/docx.png</file>
+        <file>res/newBuild_menu_imgs/txt.png</file>
+        <file>res/newBuild_menu_imgs/md.png</file>
+
+
+        <!--        标题栏图片      -->
+        <file>res/myTitleBar_imgs/fileLogo.png</file>
+        <file>res/myTitleBar_imgs/close.png</file>
+        <file>res/myTitleBar_imgs/maximum.png</file>
+        <file>res/myTitleBar_imgs/minimum.png</file>
+        <file>res/myTitleBar_imgs/restore.png</file>
+
+        <!--        主界面图片       -->
+        <file>res/mainScene_imgs/direction_top_white.png</file>
+        <file>res/mainScene_imgs/direction_top_gray.png</file>
+        <file>res/mainScene_imgs/direction_left_white.png</file>
+        <file>res/mainScene_imgs/direction_left_gray.png</file>
+        <file>res/mainScene_imgs/direction_right_white.png</file>
+        <file>res/mainScene_imgs/direction_right_gray.png</file>
+        <file>res/mainScene_imgs/setting_white.png</file>
+        <file>res/mainScene_imgs/refresh_white.png</file>
+        <file>res/mainScene_imgs/refresh_gray.png</file>
+
+        <!--         旁侧图片       -->
+        <file>res/leftScrollArea_imgs/verticalLine.png</file>
+        <file>res/leftScrollArea_imgs/collection.png</file>
+        <file>res/leftScrollArea_imgs/homePage.png</file>
+        <file>res/leftScrollArea_imgs/desktop.png</file>
+        <file>res/leftScrollArea_imgs/download.png</file>
+        <file>res/leftScrollArea_imgs/document.png</file>
+        <file>res/leftScrollArea_imgs/recovery.png</file>
+        <file>res/leftScrollArea_imgs/computer.png</file>
+        <file>res/leftScrollArea_imgs/driver_C.png</file>
+        <file>res/leftScrollArea_imgs/driver_other.png</file>
+        <file>res/leftScrollArea_imgs/oneDriveFolder.png</file>
+        <file>res/leftScrollArea_imgs/oneDrive.png</file>
+        <file>res/leftScrollArea_imgs/network.png</file>
+        <file>res/leftScrollArea_imgs/folder.png</file>
+
+        <!--        QSS文件资源     -->
+        <file>styleSheets/leftScrollBar.qss</file>
+        <file>styleSheets/rightScrollBar.qss</file>
+        <file>styleSheets/progressBar.qss</file>
+        <file>styleSheets/tableViewScrollBar.qss</file>
+        <file>styleSheets/searchScrollAreaBar.qss</file>
+
+        <!--         固定工具栏资源       -->
+        <file>res/fixedToolWidget_imgs/newBuild.png</file>
+        <file>res/fixedToolWidget_imgs/cut.png</file>
+        <file>res/fixedToolWidget_imgs/copy.png</file>
+        <file>res/fixedToolWidget_imgs/paste.png</file>
+        <file>res/fixedToolWidget_imgs/rename.png</file>
+        <file>res/fixedToolWidget_imgs/share.png</file>
+        <file>res/fixedToolWidget_imgs/more.png</file>
+        <file>res/fixedToolWidget_imgs/delete.png</file>
+        <file>res/fixedToolWidget_imgs/property.png</file>
+
+        <file>res/fixedToolWidget_imgs/manageItems.png</file>
+        <file>res/fixedToolWidget_imgs/options.png</file>
+        <file>res/fixedToolWidget_imgs/sort_desc.png</file>
+        <file>res/fixedToolWidget_imgs/layoutIcon.png</file>
+
+        <!--           右侧布局的homePage栏图片         -->
+        <file>res/rightScrollArea_homePage_imgs/desktopFolder.png</file>
+        <file>res/rightScrollArea_homePage_imgs/documentFolder.png</file>
+        <file>res/rightScrollArea_homePage_imgs/downloadFolder.png</file>
+        <file>res/rightScrollArea_homePage_imgs/musicFolder.png</file>
+        <file>res/rightScrollArea_homePage_imgs/pictureFolder.png</file>
+        <file>res/rightScrollArea_homePage_imgs/videoFolder.png</file>
+        <file>res/rightScrollArea_homePage_imgs/systemDriver.png</file>
+        <file>res/rightScrollArea_homePage_imgs/otherDriver.png</file>
+        <file>res/rightScrollArea_homePage_imgs/addPackage.png</file>
+
+
+    </qresource>
+</RCC>
